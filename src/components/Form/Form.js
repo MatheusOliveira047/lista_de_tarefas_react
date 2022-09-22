@@ -1,6 +1,8 @@
 import React from 'react'
 import './Form.css'
 
+import PropsTypes from 'prop-types'
+
 import {FaPlus} from 'react-icons/fa'
 
 
@@ -20,6 +22,15 @@ const Form = ({novaTarefa,handleChange,handleSubmit}) => {
 
   </form>
   )
+}
+
+
+
+Form.PropsTypes = {
+  handleChange: PropsTypes.func.isRequired,
+  handleSubmit: PropsTypes.func.isRequired,
+  novaTarefa: PropsTypes.string.isRequired,
+
 }
 
 export default Form
