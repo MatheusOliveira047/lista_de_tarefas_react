@@ -1,4 +1,6 @@
 import React from 'react'
+import PropsTypes from 'prop-types'
+
 import { FaEdit,FaWindowClose } from 'react-icons/fa'
 import './Tarefas.css'
 
@@ -23,6 +25,13 @@ const Tarefas = ({tarefas,handleDelete,handleEdit}) => {
     ))}
 </ul>
   )
+}
+
+Tarefas.PropsTypes = {
+  handleEdit: PropsTypes.func.isRequired,
+  handleDelete: PropsTypes.func.isRequired,
+  tarefas: PropsTypes.string.isRequired,
+
 }
 
 export default Tarefas
