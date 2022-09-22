@@ -1,2 +1,5 @@
 # LISTA DE TAREFAS EM REACT
-https://lista-de-tarefas-react-kg3h.vercel.app/
+
+## Link
+**live preview**: https://lista-de-tarefas-react-kg3h.vercel.app/
+
