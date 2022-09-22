@@ -30,7 +30,7 @@ const Tarefas = ({tarefas,handleDelete,handleEdit}) => {
 Tarefas.PropsTypes = {
   handleEdit: PropsTypes.func.isRequired,
   handleDelete: PropsTypes.func.isRequired,
-  tarefas: PropsTypes.string.isRequired,
+  tarefas: PropsTypes.array.isRequired,
 
 }
 
