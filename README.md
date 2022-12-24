@@ -1,5 +1,14 @@
 # LISTA DE TAREFAS EM REACT
 
-## Link
-**live preview**: https://lista-de-tarefas-react-kg3h.vercel.app/
+Uma lista de tarefas utilizando o local storage do navegador em React
+
+## Tecnologias Ultilizadas
+
+* React
+* CSS
+
+
+## Live Preview
+
+<a href="https://lista-de-tarefas-react-kg3h.vercel.app/">Link do aplicação</a>
 
